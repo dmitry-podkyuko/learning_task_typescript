@@ -31,4 +31,3 @@
 ## Полезные ссылки:
 
 - GitFlow ( <a href='https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow'>Variant #1</a> )
-- CheckList для React CodeReview <a href="https://gist.github.com/dmitry-podkyuko/fac0a01ca2b2679b5a86bb8c563ce56d">Link</a>
