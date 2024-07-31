@@ -1,34 +1,20 @@
-// протипизируйте ответ сервера
+// Напишите interface для массива, словаря, функции, typle.
 
-const responseServer = {
-  result: 'success', // может принимать одно из следующих значений  success, error, debugg, rejected
-  count: 4,
-  data: [
-    {
-      name: 'ivan',
-      age: 22,
-      email: 'example@gmail.ru',
-      optionalProperty: 'string',
-      optionalProperty2: 'string',
-    },
-    {
-      name: 'dasds',
-      age: 22,
-      email: 'example@gmail.ru',
-      optionalProperty2: 'string',
-      optionalProperty3: 12,
-    },
-    {
-      name: 'ssssss',
-      age: 23,
-      email: 'examp2le@gmail.ru',
-      optionalProperty2: 'string',
-      optionalProperty3: 12,
-    },
-    {
-      name: 'aassss',
-      age: 44,
-      email: 'ex1amp2le@gmail.ru',
-    },
-  ],
+interface MyArray {} // тут ваш код
+
+const arr1: MyArray = [123, 33, 2, 3, 3, 1];
+
+interface MyDictionary {}
+
+const dictionary: MyDictionary = {
+  one: 1123,
+  ok: true,
 };
+
+interface MyFn {}
+
+const testFn: MyFn = (a, b) => a + b;
+
+interface MyTyple {}
+
+const testTyple: MyTyple = [1, false, 'str'];

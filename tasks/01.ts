@@ -1,20 +1,13 @@
-// Напишите interface для массива, словаря, функции, typle.
+// какой тп будет у Test123 и Test321 ?
 
-interface MyArray {} // тут ваш код
-
-const arr1: MyArray = [123, 33, 2, 3, 3, 1];
-
-interface MyDictionary {}
-
-const dictionary: MyDictionary = {
-  one: 1123,
-  ok: true,
+type Foo = {
+  two: string;
 };
 
-interface MyFn {}
+type Bar = {
+  one: boolean;
+  three: string;
+};
 
-const testFn: MyFn = (a, b) => a + b;
-
-interface MyTyple {}
-
-const testTyple: MyTyple = [1, false, 'str'];
+type Test123 = Foo & Bar;
+type Test321 = Foo | Bar;
