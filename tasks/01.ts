@@ -1,4 +1,4 @@
-// какой тп будет у Test123 и Test321 ?
+// какой тип будет у Test123 и Test321 ?
 
 type Foo = {
   two: string;

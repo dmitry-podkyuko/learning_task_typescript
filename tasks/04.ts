@@ -10,5 +10,5 @@ type Test1 = {
 type Result1 = MyOmit<Test1, 'one'>;
 
 const Test100: Result1 = {
-  one: 'one',
+  two: 'two',
 };
